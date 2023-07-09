@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Entre em contato</title>
+</head>
+
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><img src="Imagens/logo.png" href="./index.html"/></div><!--logo-->
+            <h1>Pense no futuro e faça sua escolha</h1>
+
+        </div> <!--center-->
+    </header>
+    <form>
+        <h3>Informa abaixo o curso de seu interesse</h3>
+        <input type="radio" id="front" name="curso" values="front">
+        <label for="front">Front-end</label> <br>
+        <input type="radio" id="back" name="curso" values="back">
+        <label for="front">Back-end</label> <br>
+        <input type="radio" id="sql" name="curso" values="sql">
+        <label for="sql">Banco de Dados</label> <br>
+        <input type="radio" id="manutencao" name="curso" values="manutencao">
+        <label for="sql">Manutenção de Computadores</label> <br>
+
+        <h3>Informa seus dados para que possamos entrar em contato com você</h3>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="primeiroNome" placeholder="Digite aqui seu nome: ">
+        <br>
+        <label for="email">E-mail:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="seuemail@fake.com.br ">
+        <br>
+        <label for="telefone">Telefone</label><br>
+        <input type="tel" id="telefone" name="telefone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+            placeholder="digite aqui seu telefone:">
+        <br>
+        <br>
+        <h3>Horários que tem disponibilidade</h3>
+        <br>
+        <input type="checkbox" id="matutino" name="matutino" valor="matutino">
+        <label for="matutino">Turno matutino</label>
+        <br>
+        <input type="checkbox" id="vespertino" name="vespertino" valor="vespertino">
+        <label for="vespertino">Turno vespertino</label>
+        <br>
+        <input type="checkbox" id="noturno" name="noturno" valor="noturno">
+        <label for="noturno">Turno noturno</label>
+        <br>
+        <br>
+        <br>
+        <h3>Botão Enviar</h3>
+        <button type="submit" value="Enviar">Enviar</button> </button>
+    </form>
+    <footer>
+        <a>
+            <a href="http://www.youtube.com" target="_blank"  rel="noopenner norferrer">
+            <img src="./Imagens/youtube-logo-57B5923887-seeklogo.com.png">
+            <p>Youtube</p>
+        </a>
+        <a>
+            <a href="http://www.instagram.com" target="_blank" rel="noopenner norferrer">
+            <img src="./Imagens/instagram-logo.svg">
+            <p>Instagram</p>
+        </a>
+        <a>
+            <a href="http://www.github.com" target="_blank" rel="noopenner norferrer">
+            <img src="./Imagens/github-icon.svg" target="blank" />
+            <p>GitHub</p>
+        </a>
+        <a>
+            <a href="./index.html" rel="noopenner norferrer">
+            <img src="./Imagens/home.png"/>
+            <p>Página principal</p>
+        </a>
+    </footer>
+</body>
+
+</html>
